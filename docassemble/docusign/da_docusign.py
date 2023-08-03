@@ -103,7 +103,7 @@ class DocuSign:
         url += self.client_id
         url += "&redirect_uri="
         url += url_of('interview', _external=True)
-        #log("URL Generated: " + url, "info")
+        log("URL Generated: " + url, "info")
         return url
 
     def get_token(self):
